@@ -47,7 +47,7 @@ console.log(a == a)
 console.log(a === a) //El triple "=" a demas de comparar el valor, tambien compara el tipo de dato
 console.log(a === 11)
 console.log(a ==="11") // en este caso da false debido a que es un String
-console.log(a != 11) // el "!" indica si es diferente
+console.log(a != 11) // el "!" es el simbolo de negacion
 console.log(a !== 11) 
 console.log(a !== "11")
 console.log(0 == false) //el "0" es falso y daria resultado true
@@ -78,3 +78,30 @@ VALORES QUE SIEMPRE SON FALSOS
     - Cadenas de texto vacías
     
 */
+
+// Operadores lógicos "and '&&',  or '||'"
+
+//and '&&'
+console.log(5 > 10 && 15 > 20)
+console.log(5 < 10 && 15 < 20)
+console.log(5 < 10 && 15 > 20)
+console.log(5 > 10 && 15 > 20 && 30 > 40)
+ 
+//or '||' 
+console.log(5 > 10 || 15 > 20)
+console.log(5 < 10 || 15 < 20)
+console.log(5 < 10 || 15 > 20)
+console.log(5 > 10 || 15 > 20 || 30 > 40)
+
+console.log(5 > 10 && 15 > 20 || 30 < 40)
+
+//not "!" negacion
+console.log(!true)
+console.log(!false)
+console.log(!(5 > 10 || 15 > 20))
+console.log(!(5 > 10 && 15 > 20))
+
+//Operadores ternarios "?" ":"
+console.log("Operadores ternarios")
+let isRaining =true
+isRaining ? console.log("esta lloviendo") : console.log("no esta lloviendo")
