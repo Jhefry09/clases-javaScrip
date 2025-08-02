@@ -16,6 +16,9 @@ while (a<=10) {
     console.log(a);
 }
 
+
+//2. Crea una variable para cada tipo de operación de asignación , que haga uso de las variables utilizadas para las operaciones aritméticas
+
 let b = 10
 
 b += 5
@@ -35,8 +38,6 @@ console.log(b);
 
 b **=3
 console.log(b);
-
-//2. Crea una variable para cada tipo de operación de asignación , que haga uso de las variables utilizadas para las operaciones aritméticas
 
 //3. Imprime 5 comparaciones verdaderas con diferentes operadores de comparación
 
