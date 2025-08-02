@@ -1,17 +1,16 @@
 //1. Crea una variable para cada operacion aritmética
-console.log(" : ");
-console.log(7+8);
-console.log(10-8);
-console.log(5*5);
-console.log(25/5);
-console.log(19%5);
-console.log(5**5);
+console.log(7 + 8);
+console.log(10 - 8);
+console.log(5 * 5);
+console.log(25 / 5);
+console.log(19 % 5);
+console.log(5 ** 5);
 let a = 5
-while (a>=1) {
+while (a >= 1) {
     a--
     console.log(a);
 }
-while (a<=10) {
+while (a <= 10) {
     a++
     console.log(a);
 }
@@ -41,7 +40,19 @@ console.log(b);
 
 //3. Imprime 5 comparaciones verdaderas con diferentes operadores de comparación
 
+let c = 15
+let d = 20
+
+console.log(c < d);
+console.log(c != d);
+console.log(c !== "");
+console.log(d != 0);
+console.log(d !== "20");
+
 //4. Imprime 4 comparaciones falsas con diferentes operadores de comparacion 
+
+
+
 
 //5. Utiliza el operador lógico and
 
