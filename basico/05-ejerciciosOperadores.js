@@ -49,12 +49,12 @@ console.log(c !== "");
 console.log(d != 0);
 console.log(d !== "20");
 
-//4. Imprime 4 comparaciones falsas con diferentes operadores de comparacion 
-
-
-
-
 //5. Utiliza el operador lógico and
+
+console.log((a > b) && (a > c)?"a es el mayor de todos" : "a no es el mayor")
+
+
+
 
 //6. Utiliza el operador lógico or
 
