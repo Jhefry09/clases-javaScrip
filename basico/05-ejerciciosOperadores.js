@@ -53,10 +53,9 @@ console.log(d !== "20");
 
 console.log((a > b) && (a > c)?"a es el mayor de todos" : "a no es el mayor")
 
-
-
-
 //6. Utiliza el operador lógico or
+
+console.log(a>b || a > c);
 
 //7. Combina ambos operadores lógicos
 
