@@ -25,5 +25,6 @@ console.log(espacios.includes("dolor"));
 //9. Comprueba si dos String son iguales
 console.log(nombre === apellido);
 //10. Comprueba si dos string tienen la misma longitud
-let total = Array.from(espacios.matchAll(/em/g)).length;
-console.log(total);
+// let total = Array.from(espacios.matchAll(/em/g)).length;
+// console.log(total);
+console.log(nombre.length == apellido.length);

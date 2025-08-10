@@ -28,3 +28,5 @@ console.log(lorem);
 
 // permite ingresar las variables directo en los string
 console.log(`hola, ${nombre}`);
+
+const readline = require("readline");
